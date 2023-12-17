@@ -1,0 +1,83 @@
+@media (max-width: 576px) {
+  .bg-container {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/reviews-bg.png');
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+    align-items: center;
+  }
+  .heading1 {
+    color: #ffffff;
+    font-family: 'Roboto';
+    font-size: 28px;
+    font-weight: bold;
+  }
+  .button-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .heading2 {
+    color: #ffffff;
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .button {
+    background-color: transparent;
+    border: 0px none;
+  }
+  .para {
+    color: #171f46;
+    font-family: 'Roboto';
+    font-size: 15px;
+    font-weight: normal;
+    text-align: center;
+  }
+}
+@media (min-width: 577px) {
+  .bg-container {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/reviews-bg.png');
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+    align-items: center;
+  }
+  .heading1 {
+    color: #ffffff;
+    font-family: 'Roboto';
+    font-size: 28px;
+    font-weight: bold;
+  }
+  .button-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .heading2 {
+    color: #ffffff;
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 250px;
+    margin-right: 250px;
+  }
+  .button {
+    background-color: transparent;
+    border: 0px none;
+  }
+  .para {
+    color: #171f46;
+    font-family: 'Roboto';
+    font-size: 15px;
+    font-weight: normal;
+  }
+}
